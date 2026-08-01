@@ -21,7 +21,7 @@ word_counts = Counter(words)
 
 for word, count in word_counts.most_common(10):
     print(f"{word}\t{count}")
-  -----------------------------------------------------------------------
+-----------------------------------------------------------------------
 from collections import Counter
 import string
 from nltk.tokenize import TweetTokenizer
